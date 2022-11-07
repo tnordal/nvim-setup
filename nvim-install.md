@@ -10,7 +10,7 @@ sudo apt install software-properties-common
 sudo apt update && sudo apt install neovim -y
 
 **Install LSP Server**  
-pip install pyright
+pip install pyright  
 **If nessessary install pip**  
 sudo apt install python3-pip -y 
 
