@@ -1,7 +1,7 @@
 ## Install Neovim
 
 **Get the latest version**  
-sudo add-apt-repository ppa:neovim-ppa/unstable -y
+sudo add-apt-repository ppa:neovim-ppa/unstable -y  
 **If not working**  
 sudo apt update
 sudo apt install software-properties-common
@@ -11,6 +11,8 @@ sudo apt update && sudo apt install neovim -y
 
 **Install LSP Server**  
 pip install pyright
+**If nessessary install pip**  
+sudo apt install python3-pip -y 
 
 **Add to .zshrc**  
 export PATH="/home/tn/.local/bin:$PATH"  
