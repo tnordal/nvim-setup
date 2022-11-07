@@ -15,3 +15,10 @@ map('n', 'ff', [[:Telescope find_files]], {})
 -- Terminal in Window
 map('n', 'w', [[:sp term://zsh]], {})
 map('n', 'w6', [[:res -6]], {})
+
+-- Markdown Preview
+map('n', 'm', [[:MarkdownPreview]], {})
+
+-- map <C-s> <Plug>MarkdownPreview
+-- nmap <M-s> <Plug>MarkdownPreviewStop
+-- nmap <C-p> <Plug>MarkdownPreviewToggle

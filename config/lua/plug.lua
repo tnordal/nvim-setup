@@ -29,4 +29,17 @@ return require('packer').startup(function(use)
   use { 'windwp/nvim-autopairs' }                    -- auto close brackets, etc.
   use {'tpope/vim-commentary'}                       -- comment code
   use {'neovim/nvim-lspconfig'}                      -- Configurations for Nvim LSP
+
+  -- install without yarn or npm
+  use({
+    "iamcco/markdown-preview.nvim",
+    run = function() vim.fn["mkdp#util#install"]() end,
+  })
+
+  use({
+      "iamcco/markdown-preview.nvim",
+      run = "cd app && npm install",
+      setup = function() vim.g.mkdp_filetypes = { "markdown" } end,
+      ft = { "markdown" },
+  })
 end)
