@@ -10,4 +10,6 @@ sudo apt update && sudo apt install neovim -y
 pip install pyright
 
 **Add to .zshrc**  
-export PATH="/home/tn/.local/bin:$PATH"
+export PATH="/home/tn/.local/bin:$PATH"  
+
+---
