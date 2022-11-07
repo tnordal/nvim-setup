@@ -17,7 +17,7 @@ map('n', 'w', [[:sp term://zsh]], {})
 map('n', 'w6', [[:res -6]], {})
 
 -- Markdown Preview
-map('n', 'm', [[:MarkdownPreview]], {})
+map('n', 'm', [[:MarkdownPreviewToggle]], {})
 
 -- map <C-s> <Plug>MarkdownPreview
 -- nmap <M-s> <Plug>MarkdownPreviewStop

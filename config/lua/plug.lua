@@ -30,7 +30,7 @@ return require('packer').startup(function(use)
   use {'tpope/vim-commentary'}                       -- comment code
   use {'neovim/nvim-lspconfig'}                      -- Configurations for Nvim LSP
 
-  -- install without yarn or npm
+  -- install Mardown Preview without yarn or npm
   use({
     "iamcco/markdown-preview.nvim",
     run = function() vim.fn["mkdp#util#install"]() end,
@@ -42,4 +42,5 @@ return require('packer').startup(function(use)
       setup = function() vim.g.mkdp_filetypes = { "markdown" } end,
       ft = { "markdown" },
   })
+
 end)
