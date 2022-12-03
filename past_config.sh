@@ -1,2 +1,4 @@
 #!/usr/bin/bash
-rsync -ar config ~/.config
+
+mkdir -p ~/.config/nvim
+rsync -ar config/* ~/.config/nvim
