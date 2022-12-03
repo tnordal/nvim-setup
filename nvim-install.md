@@ -15,6 +15,8 @@ pip install pyright
 sudo apt install python3-pip -y 
 
 **Add to .zshrc**  
-export PATH="/home/tn/.local/bin:$PATH"  
+export PATH="/home/tn/.local/bin:$PATH"
+
+git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 
 ---
